@@ -59,4 +59,4 @@ local function OnFail()
     -- TEST_LOCK:Remove()
 end
 
-LOCKSYSTEM:RegisterLock("lock_3", OnActivate, OnSuccess, OnFail)
+LOCKSYSTEM:RegisterLock("lock_1", OnActivate, OnSuccess, OnFail)

@@ -20,4 +20,4 @@ local function CheckResults(result, data)
     return tonumber(numberResult) == tonumber(rightAnswer)
 end
 
-LOCKSYSTEM:RegisterLock("lock_3", OnActivate, OnSucces, OnFail, CheckResults)
+LOCKSYSTEM:RegisterLock("lock_1", OnActivate, OnSucces, OnFail, CheckResults)
