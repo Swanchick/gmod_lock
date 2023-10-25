@@ -27,8 +27,8 @@ SWEP.LockRange = 70
 SWEP.LockIcon = Material("gmod_lock/Locked.png")
 
 function SWEP:PrimaryAttack()
-    -- local clip = self:Clip1()
-    -- if clip == 0 then return end
+    local clip = self:Clip1()
+    if clip == 0 then return end
 
     local owner = self:GetOwner()
     if not IsValid(owner) then return end
