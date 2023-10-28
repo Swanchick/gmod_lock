@@ -57,7 +57,7 @@ function SWEP:PrimaryAttack()
 
                 local worked = LOCKSYSTEM:CallLock(owner, doorName, ent)
                 if worked then
-                    self:SetClip1(clip - 1)
+                    -- self:SetClip1(clip - 1)
                 end
             end
         end
