@@ -4,8 +4,6 @@ LOCKSYSTEM.Locks = {}
 function LOCKSYSTEM:RegisterLock(lockName, onActivate, onSuccess, onFail, checkResult)
 
     local lockSettings = {
-        ["data"] = {},
-        ["dataToSend"] = {},
         ["onActivate"] = onActivate,
         ["onSuccess"] = onSuccess,
         ["onFail"] = onFail,

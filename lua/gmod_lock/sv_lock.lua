@@ -3,12 +3,14 @@ util.AddNetworkString("Lock.Activate")
 
 local propDoorRotating = "prop_door_rotating"
 
+LOCKSYSTEM.Data = {}
+
 function LOCKSYSTEM:CheckResult(ply, lockName, result)
     local lock = self.Locks[lockName]
     if not lock then return end
 
     local checkResult = lock["checkResult"]
-    local data = lock["data"]
+    local data = LOCKSYSTEM.Data[ply:SteamID()]
 
     local response = checkResult(result, data)
 
@@ -44,13 +46,12 @@ function LOCKSYSTEM:CallLock(ply, lockName, door)
 
     local data, dataToSend = onActivate(ply)
 
-    lock["data"] = data or {}
-    lock["dataToSend"] = dataToSend or {}
+    LOCKSYSTEM.Data[ply:SteamID()] = data or {}
     lock["Door"] = door
 
     net.Start("Lock.Activate")
         net.WriteString(lockName)
-        net.WriteTable(lock["dataToSend"])
+        net.WriteTable(dataToSend or {})
     net.Send(ply)
 
     return true
