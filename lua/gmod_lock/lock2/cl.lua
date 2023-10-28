@@ -10,6 +10,8 @@ do
         [4] = Color(255, 0, 255)
     }
 
+    local wireMat = Material("gmod_lock/ui/wire.png", "noclamp")
+
     function PANEL:Init()
         self:MakePopup()
 
@@ -130,7 +132,6 @@ do
     end
     
     function PANEL:DrawRectRotated(x, y, w, h, rot, x0, y0)
-	
         local c = math.cos(math.rad(rot))
         local s = math.sin(math.rad(rot))
         
@@ -144,6 +145,7 @@ do
         local dx = endX - startX
         local dy = endY - startY
         local width = math.sqrt(dx * dx + dy * dy)
+
         return width
     end
 
@@ -152,7 +154,7 @@ do
         
         local angle = self:GetWireAngle(sX, sY, eX, eY)
         local wide = self:CalculateWide(sX, sY, eX, eY)
-
+        
         self:DrawRectRotated(sX, sY, wide, tall, -angle, -wide / 2, 0)
     end
 
@@ -164,16 +166,16 @@ do
         local wide, tall = ScreenScale(45), ScreenScale(20)
         local offset = (h - mH - mH2) / 4
 
+        surface.SetMaterial(wireMat)
         if self.Wires then
             for k, wire in ipairs(self.Wires) do
                 surface.SetDrawColor(WIRE_COLORS[k])
-                surface.DrawRect(mW, mH * 2 + offset * (k - 1), wide, tall)
+                surface.DrawTexturedRect(mW, mH * 2 + offset * (k - 1), wide, tall)
     
                 surface.SetDrawColor(WIRE_COLORS[wire[1]])
-                surface.DrawRect(w - mW - wide, mH * 2 + offset * (k - 1), wide, tall)
+                surface.DrawTexturedRect(w - mW - wide, mH * 2 + offset * (k - 1), wide, tall)
             end
         end
-        
         
         for k, wire in ipairs(self.ConnectedWires) do
             surface.SetDrawColor(WIRE_COLORS[wire[5]])
