@@ -102,7 +102,7 @@ do
             lockModel:SetAngles(lockAng)
             lockModel:DrawModel()
 
-            lockPickModel:SetPos(Vector(-10, 0, 20.5))
+            lockPickModel:SetPos(eyeAngle:Forward() * -5 + eyeAngle:Up() * 20)
             lockPickModel:SetAngles(lockPickAng)
             lockPickModel:DrawModel()
         cam.End3D()

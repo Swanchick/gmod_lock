@@ -1014,3 +1014,914 @@ Level flags = 0
 Total triangle count: 72
 Writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gmod_lock\maps\gm_lock_map.bsp
 0 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\gmod_lock\maps\gm_lock_map.vmf
+ConVarRef gmod_unload_test doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\gmod_lock\maps\gm_lock_map.prt...Building visibility clusters...
+done (0)
+No such variable "$basetexture" for material "skybox/paintedrt"
+Can't load skybox file skybox/painted to build the default cubemap!
+No such variable "$basetexture" for material "skybox/paintedrt"
+Can't load skybox file skybox/painted to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12023 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 20 texinfos to 10
+Reduced 5 texdatas to 5 (107 bytes to 107)
+Writing D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\gmod_lock\maps\gm_lock_map.bsp
+0 seconds elapsed
+
+
+
+12 threads
+reading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gmod_lock\maps\gm_lock_map.bsp
+reading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gmod_lock\maps\gm_lock_map.prt
+  10 portalclusters
+  10 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 70
+Average clusters visible: 7
+Building PAS...
+Average clusters audible: 10
+visdatasize:126  compressed from 160
+writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gmod_lock\maps\gm_lock_map.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gmod_lock\maps\gm_lock_map.bsp
+PREP OK
+95 faces
+11877 square feet [1710336.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+95 patches before subdivision
+1735 patches after subdivision
+11 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 126051, max 223
+transfer lists:   1.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(43419, 30056, 17819)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10028, 4699, 1696)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2317, 764, 164)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(534, 123, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(123, 20, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(28, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(7, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0003 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 35/16384         420/196608   ( 0.2%) 
+brushsides             210/163840       1680/1310720  ( 0.1%) 
+planes                  76/65536        1520/1310720  ( 0.1%) 
+vertexes               162/65536        1944/786432   ( 0.2%) 
+nodes                   46/65536        1472/2097152  ( 0.1%) 
+texinfos                10/12288         720/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   95/65536        5320/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               61/65536        3416/3670016  ( 0.1%) 
+leaves                  48/65536        1536/2097152  ( 0.1%) 
+leaffaces               95/65536         190/131072   ( 0.1%) 
+leafbrushes             61/65536         122/131072   ( 0.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              660/512000       2640/2048000  ( 0.1%) 
+edges                  392/256000       1568/1024000  ( 0.2%) 
+LDR worldlights         11/8192          968/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            18/65536          36/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       67836/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         126/16777216 ( 0.0%) 
+entdata               [variable]        5468/393216   ( 1.4%) 
+LDR ambient table       48/65536         192/262144   ( 0.1%) 
+HDR ambient table       48/65536         192/262144   ( 0.1%) 
+LDR leaf ambient       115/65536        3220/1835008  ( 0.2%) 
+HDR leaf ambient        48/65536        1344/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/974      ( 0.1%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]       12023/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 226
+Writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gmod_lock\maps\gm_lock_map.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\gmod_lock\maps\gm_lock_map.vmf
+ConVarRef gmod_unload_test doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\gmod_lock\maps\gm_lock_map.prt...Building visibility clusters...
+done (0)
+No such variable "$basetexture" for material "skybox/paintedrt"
+Can't load skybox file skybox/painted to build the default cubemap!
+No such variable "$basetexture" for material "skybox/paintedrt"
+Can't load skybox file skybox/painted to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12023 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 20 texinfos to 10
+Reduced 5 texdatas to 5 (107 bytes to 107)
+Writing D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\gmod_lock\maps\gm_lock_map.bsp
+0 seconds elapsed
+
+
+
+12 threads
+reading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gmod_lock\maps\gm_lock_map.bsp
+reading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gmod_lock\maps\gm_lock_map.prt
+  10 portalclusters
+  10 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 70
+Average clusters visible: 7
+Building PAS...
+Average clusters audible: 10
+visdatasize:126  compressed from 160
+writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gmod_lock\maps\gm_lock_map.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gmod_lock\maps\gm_lock_map.bsp
+PREP OK
+95 faces
+11877 square feet [1710336.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+95 patches before subdivision
+1735 patches after subdivision
+7 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 126179, max 223
+transfer lists:   1.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(27388, 18978, 11240)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(6325, 3005, 1076)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1461, 494, 105)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(337, 81, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(78, 13, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(18, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 35/16384         420/196608   ( 0.2%) 
+brushsides             210/163840       1680/1310720  ( 0.1%) 
+planes                  76/65536        1520/1310720  ( 0.1%) 
+vertexes               162/65536        1944/786432   ( 0.2%) 
+nodes                   46/65536        1472/2097152  ( 0.1%) 
+texinfos                10/12288         720/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   95/65536        5320/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               61/65536        3416/3670016  ( 0.1%) 
+leaves                  48/65536        1536/2097152  ( 0.1%) 
+leaffaces               95/65536         190/131072   ( 0.1%) 
+leafbrushes             61/65536         122/131072   ( 0.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              660/512000       2640/2048000  ( 0.1%) 
+edges                  392/256000       1568/1024000  ( 0.2%) 
+LDR worldlights          7/8192          616/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            18/65536          36/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       67836/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         126/16777216 ( 0.0%) 
+entdata               [variable]        4144/393216   ( 1.1%) 
+LDR ambient table       48/65536         192/262144   ( 0.1%) 
+HDR ambient table       48/65536         192/262144   ( 0.1%) 
+LDR leaf ambient       115/65536        3220/1835008  ( 0.2%) 
+HDR leaf ambient        48/65536        1344/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/670      ( 0.1%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]       12023/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 226
+Writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gmod_lock\maps\gm_lock_map.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\gmod_lock\maps\gm_lock_map.vmf
+ConVarRef gmod_unload_test doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\gmod_lock\maps\gm_lock_map.prt...Building visibility clusters...
+done (0)
+No such variable "$basetexture" for material "skybox/paintedrt"
+Can't load skybox file skybox/painted to build the default cubemap!
+No such variable "$basetexture" for material "skybox/paintedrt"
+Can't load skybox file skybox/painted to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12023 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 20 texinfos to 10
+Reduced 5 texdatas to 5 (107 bytes to 107)
+Writing D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\gmod_lock\maps\gm_lock_map.bsp
+0 seconds elapsed
+
+
+
+12 threads
+reading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gmod_lock\maps\gm_lock_map.bsp
+reading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gmod_lock\maps\gm_lock_map.prt
+  10 portalclusters
+  10 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 70
+Average clusters visible: 7
+Building PAS...
+Average clusters audible: 10
+visdatasize:126  compressed from 160
+writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gmod_lock\maps\gm_lock_map.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gmod_lock\maps\gm_lock_map.bsp
+PREP OK
+95 faces
+11877 square feet [1710336.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+95 patches before subdivision
+1735 patches after subdivision
+7 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 126179, max 223
+transfer lists:   1.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(27973, 20945, 12157)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(6275, 3157, 1110)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1468, 526, 110)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(337, 86, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(78, 14, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(18, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 35/16384         420/196608   ( 0.2%) 
+brushsides             210/163840       1680/1310720  ( 0.1%) 
+planes                  76/65536        1520/1310720  ( 0.1%) 
+vertexes               162/65536        1944/786432   ( 0.2%) 
+nodes                   46/65536        1472/2097152  ( 0.1%) 
+texinfos                10/12288         720/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   95/65536        5320/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               61/65536        3416/3670016  ( 0.1%) 
+leaves                  48/65536        1536/2097152  ( 0.1%) 
+leaffaces               95/65536         190/131072   ( 0.1%) 
+leafbrushes             61/65536         122/131072   ( 0.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              660/512000       2640/2048000  ( 0.1%) 
+edges                  392/256000       1568/1024000  ( 0.2%) 
+LDR worldlights          7/8192          616/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            18/65536          36/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       67836/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         126/16777216 ( 0.0%) 
+entdata               [variable]        4130/393216   ( 1.1%) 
+LDR ambient table       48/65536         192/262144   ( 0.1%) 
+HDR ambient table       48/65536         192/262144   ( 0.1%) 
+LDR leaf ambient       115/65536        3220/1835008  ( 0.2%) 
+HDR leaf ambient        48/65536        1344/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/670      ( 0.1%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]       12023/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 226
+Writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gmod_lock\maps\gm_lock_map.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\gmod_lock\maps\gm_lock_map.vmf
+ConVarRef gmod_unload_test doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\gmod_lock\maps\gm_lock_map.prt...Building visibility clusters...
+done (0)
+No such variable "$basetexture" for material "skybox/paintedrt"
+Can't load skybox file skybox/painted to build the default cubemap!
+No such variable "$basetexture" for material "skybox/paintedrt"
+Can't load skybox file skybox/painted to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (14671 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 22 texinfos to 10
+Reduced 5 texdatas to 5 (107 bytes to 107)
+Writing D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\gmod_lock\maps\gm_lock_map.bsp
+0 seconds elapsed
+
+
+
+12 threads
+reading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gmod_lock\maps\gm_lock_map.bsp
+reading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gmod_lock\maps\gm_lock_map.prt
+  11 portalclusters
+  13 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 91
+Average clusters visible: 8
+Building PAS...
+Average clusters audible: 11
+visdatasize:137  compressed from 176
+writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gmod_lock\maps\gm_lock_map.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gmod_lock\maps\gm_lock_map.bsp
+PREP OK
+96 faces
+11877 square feet [1710336.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+96 patches before subdivision
+1744 patches after subdivision
+7 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 127561, max 224
+transfer lists:   1.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(28089, 21035, 12209)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(6313, 3178, 1118)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1477, 530, 110)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(339, 86, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(78, 14, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(18, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 44/16384         528/196608   ( 0.3%) 
+brushsides             264/163840       2112/1310720  ( 0.2%) 
+planes                  76/65536        1520/1310720  ( 0.1%) 
+vertexes               166/65536        1992/786432   ( 0.3%) 
+nodes                   46/65536        1472/2097152  ( 0.1%) 
+texinfos                10/12288         720/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   96/65536        5376/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               59/65536        3304/3670016  ( 0.1%) 
+leaves                  48/65536        1536/2097152  ( 0.1%) 
+leaffaces               96/65536         192/131072   ( 0.1%) 
+leafbrushes             71/65536         142/131072   ( 0.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              654/512000       2616/2048000  ( 0.1%) 
+edges                  391/256000       1564/1024000  ( 0.2%) 
+LDR worldlights          7/8192          616/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       68004/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         137/16777216 ( 0.0%) 
+entdata               [variable]        4130/393216   ( 1.1%) 
+LDR ambient table       48/65536         192/262144   ( 0.1%) 
+HDR ambient table       48/65536         192/262144   ( 0.1%) 
+LDR leaf ambient       131/65536        3668/1835008  ( 0.2%) 
+HDR leaf ambient        48/65536        1344/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/670      ( 0.1%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]       14671/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 226
+Writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gmod_lock\maps\gm_lock_map.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\gmod_lock\maps\gm_lock_map.vmf
+ConVarRef gmod_unload_test doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\gmod_lock\maps\gm_lock_map.prt...Building visibility clusters...
+done (0)
+No such variable "$basetexture" for material "skybox/paintedrt"
+Can't load skybox file skybox/painted to build the default cubemap!
+No such variable "$basetexture" for material "skybox/paintedrt"
+Can't load skybox file skybox/painted to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (14671 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 22 texinfos to 10
+Reduced 5 texdatas to 5 (107 bytes to 107)
+Writing D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\gmod_lock\maps\gm_lock_map.bsp
+0 seconds elapsed
+
+
+
+12 threads
+reading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gmod_lock\maps\gm_lock_map.bsp
+reading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gmod_lock\maps\gm_lock_map.prt
+  11 portalclusters
+  13 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 91
+Average clusters visible: 8
+Building PAS...
+Average clusters audible: 11
+visdatasize:137  compressed from 176
+writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gmod_lock\maps\gm_lock_map.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gmod_lock\maps\gm_lock_map.bsp
+PREP OK
+96 faces
+11877 square feet [1710336.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+96 patches before subdivision
+1744 patches after subdivision
+7 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 127561, max 224
+transfer lists:   1.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(28089, 21035, 12209)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(6313, 3178, 1118)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1477, 530, 110)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(339, 86, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(78, 14, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(18, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0003 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 44/16384         528/196608   ( 0.3%) 
+brushsides             264/163840       2112/1310720  ( 0.2%) 
+planes                  76/65536        1520/1310720  ( 0.1%) 
+vertexes               166/65536        1992/786432   ( 0.3%) 
+nodes                   46/65536        1472/2097152  ( 0.1%) 
+texinfos                10/12288         720/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   96/65536        5376/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               59/65536        3304/3670016  ( 0.1%) 
+leaves                  48/65536        1536/2097152  ( 0.1%) 
+leaffaces               96/65536         192/131072   ( 0.1%) 
+leafbrushes             71/65536         142/131072   ( 0.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              654/512000       2616/2048000  ( 0.1%) 
+edges                  391/256000       1564/1024000  ( 0.2%) 
+LDR worldlights          7/8192          616/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       68004/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         137/16777216 ( 0.0%) 
+entdata               [variable]        4133/393216   ( 1.1%) 
+LDR ambient table       48/65536         192/262144   ( 0.1%) 
+HDR ambient table       48/65536         192/262144   ( 0.1%) 
+LDR leaf ambient       131/65536        3668/1835008  ( 0.2%) 
+HDR leaf ambient        48/65536        1344/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/670      ( 0.1%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]       14671/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 226
+Writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gmod_lock\maps\gm_lock_map.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\gmod_lock\maps\gm_lock_map.vmf
+ConVarRef gmod_unload_test doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\gmod_lock\maps\gm_lock_map.prt...Building visibility clusters...
+done (0)
+No such variable "$basetexture" for material "skybox/paintedrt"
+Can't load skybox file skybox/painted to build the default cubemap!
+No such variable "$basetexture" for material "skybox/paintedrt"
+Can't load skybox file skybox/painted to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (14671 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 22 texinfos to 10
+Reduced 5 texdatas to 5 (107 bytes to 107)
+Writing D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\gmod_lock\maps\gm_lock_map.bsp
+0 seconds elapsed
+
+
+
+12 threads
+reading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gmod_lock\maps\gm_lock_map.bsp
+reading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gmod_lock\maps\gm_lock_map.prt
+  11 portalclusters
+  13 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 91
+Average clusters visible: 8
+Building PAS...
+Average clusters audible: 11
+visdatasize:137  compressed from 176
+writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gmod_lock\maps\gm_lock_map.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gmod_lock\maps\gm_lock_map.bsp
+PREP OK
+96 faces
+11877 square feet [1710336.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+96 patches before subdivision
+1744 patches after subdivision
+7 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 127561, max 224
+transfer lists:   1.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(28089, 21035, 12209)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(6313, 3178, 1118)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1477, 530, 110)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(339, 86, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(78, 14, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(18, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 44/16384         528/196608   ( 0.3%) 
+brushsides             264/163840       2112/1310720  ( 0.2%) 
+planes                  76/65536        1520/1310720  ( 0.1%) 
+vertexes               166/65536        1992/786432   ( 0.3%) 
+nodes                   46/65536        1472/2097152  ( 0.1%) 
+texinfos                10/12288         720/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   96/65536        5376/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               59/65536        3304/3670016  ( 0.1%) 
+leaves                  48/65536        1536/2097152  ( 0.1%) 
+leaffaces               96/65536         192/131072   ( 0.1%) 
+leafbrushes             71/65536         142/131072   ( 0.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              654/512000       2616/2048000  ( 0.1%) 
+edges                  391/256000       1564/1024000  ( 0.2%) 
+LDR worldlights          7/8192          616/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       68004/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         137/16777216 ( 0.0%) 
+entdata               [variable]        4133/393216   ( 1.1%) 
+LDR ambient table       48/65536         192/262144   ( 0.1%) 
+HDR ambient table       48/65536         192/262144   ( 0.1%) 
+LDR leaf ambient       131/65536        3668/1835008  ( 0.2%) 
+HDR leaf ambient        48/65536        1344/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/670      ( 0.1%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]       14671/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 226
+Writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gmod_lock\maps\gm_lock_map.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\gmod_lock\maps\gm_lock_map.vmf
+ConVarRef gmod_unload_test doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\gmod_lock\maps\gm_lock_map.prt...Building visibility clusters...
+done (0)
+No such variable "$basetexture" for material "skybox/paintedrt"
+Can't load skybox file skybox/painted to build the default cubemap!
+No such variable "$basetexture" for material "skybox/paintedrt"
+Can't load skybox file skybox/painted to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (14671 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 22 texinfos to 10
+Reduced 5 texdatas to 5 (107 bytes to 107)
+Writing D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\gmod_lock\maps\gm_lock_map.bsp
+0 seconds elapsed
+
+
+
+12 threads
+reading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gmod_lock\maps\gm_lock_map.bsp
+reading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gmod_lock\maps\gm_lock_map.prt
+  11 portalclusters
+  13 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 91
+Average clusters visible: 8
+Building PAS...
+Average clusters audible: 11
+visdatasize:137  compressed from 176
+writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gmod_lock\maps\gm_lock_map.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gmod_lock\maps\gm_lock_map.bsp
+PREP OK
+96 faces
+11877 square feet [1710336.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+96 patches before subdivision
+1744 patches after subdivision
+7 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 127561, max 224
+transfer lists:   1.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(28089, 21035, 12209)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(6313, 3178, 1118)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1477, 530, 110)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(339, 86, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(78, 14, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(18, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 44/16384         528/196608   ( 0.3%) 
+brushsides             264/163840       2112/1310720  ( 0.2%) 
+planes                  76/65536        1520/1310720  ( 0.1%) 
+vertexes               166/65536        1992/786432   ( 0.3%) 
+nodes                   46/65536        1472/2097152  ( 0.1%) 
+texinfos                10/12288         720/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   96/65536        5376/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               59/65536        3304/3670016  ( 0.1%) 
+leaves                  48/65536        1536/2097152  ( 0.1%) 
+leaffaces               96/65536         192/131072   ( 0.1%) 
+leafbrushes             71/65536         142/131072   ( 0.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              654/512000       2616/2048000  ( 0.1%) 
+edges                  391/256000       1564/1024000  ( 0.2%) 
+LDR worldlights          7/8192          616/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       68004/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         137/16777216 ( 0.0%) 
+entdata               [variable]        4136/393216   ( 1.1%) 
+LDR ambient table       48/65536         192/262144   ( 0.1%) 
+HDR ambient table       48/65536         192/262144   ( 0.1%) 
+LDR leaf ambient       131/65536        3668/1835008  ( 0.2%) 
+HDR leaf ambient        48/65536        1344/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/670      ( 0.1%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]       14671/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 226
+Writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gmod_lock\maps\gm_lock_map.bsp
+0 seconds elapsed
