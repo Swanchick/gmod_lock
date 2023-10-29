@@ -1,5 +1,3 @@
-
-
 local backgroundModel = Color(0, 0, 0, 200)
 local lockModel = ClientsideModel("models/door_handle.mdl")
 local lockModelPos = Vector(0, -35, 20)
